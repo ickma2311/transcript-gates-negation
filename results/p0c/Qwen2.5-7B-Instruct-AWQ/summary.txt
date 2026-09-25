@@ -1,0 +1,20 @@
+model=Qwen/Qwen2.5-7B-Instruct-AWQ
+condition      gate       CORRECT EXTRA_AR  FLIPPED WRONG_AC EXTRA_CA  CONFIRM  NO_CALL PARSE_FA     n
+clean          none          78.6      4.8      0.0     16.7      0.0      0.0      0.0      0.0    42
+clean          confirm_optbool     73.8      4.8      0.0     21.4      0.0      0.0      0.0      0.0    42
+clean_pos      none          73.8      4.8      0.0     21.4      0.0      0.0      0.0      0.0    42
+clean_pos      confirm_optbool     73.8      7.1      0.0     19.0      0.0      0.0      0.0      0.0    42
+neg_drop       none           2.4      0.0     78.6     16.7      2.4      0.0      0.0      0.0    42
+neg_drop       confirm_optbool      2.4      0.0     76.2     16.7      2.4      2.4      0.0      0.0    42
+func_drop      none          71.4      4.8      0.0     23.8      0.0      0.0      0.0      0.0    42
+func_drop      confirm_optbool     69.0      7.1      0.0     23.8      0.0      0.0      0.0      0.0    42
+content_sub    none           4.8      2.4      0.0     92.9      0.0      0.0      0.0      0.0    42
+content_sub    confirm_optbool      4.8      2.4      0.0     92.9      0.0      0.0      0.0      0.0    42
+other_1w       none          73.8      4.8      0.0     21.4      0.0      0.0      0.0      0.0    42
+other_1w       confirm_optbool     66.7      4.8      0.0     21.4      0.0      7.1      0.0      0.0    42
+other_1w_mid   none          69.0      0.0      0.0     31.0      0.0      0.0      0.0      0.0    42
+other_1w_mid   confirm_optbool     66.7      2.4      0.0     28.6      0.0      2.4      0.0      0.0    42
+other_intent   none          61.9      4.8      0.0     19.0     14.3      0.0      0.0      0.0    42
+other_intent   confirm_optbool     64.3      4.8      0.0     19.0      4.8      7.1      0.0      0.0    42
+other_chatter  none          76.2      4.8      0.0     19.0      0.0      0.0      0.0      0.0    42
+other_chatter  confirm_optbool     71.4      4.8      0.0     19.0      0.0      4.8      0.0      0.0    42

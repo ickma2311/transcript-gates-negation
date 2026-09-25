@@ -1,0 +1,6 @@
+model=Qwen/Qwen2.5-7B-Instruct-AWQ
+condition      gate       CORRECT EXTRA_AR  FLIPPED WRONG_AC EXTRA_CA  CONFIRM  NO_CALL PARSE_FA     n
+clean_pos      none          73.8      4.8      0.0     21.4      0.0      0.0      0.0      0.0    42
+clean_pos      confirm       73.8      4.8      0.0     14.3      0.0      7.1      0.0      0.0    42
+clean_pos      confirm_generic     73.8      4.8      0.0     21.4      0.0      0.0      0.0      0.0    42
+clean_pos      spktag        76.2      7.1      0.0     16.7      0.0      0.0      0.0      0.0    42
